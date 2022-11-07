@@ -139,6 +139,7 @@
 	}
 	.feature-col-2{
 		width:100%;
+		padding:0px;
 	}
 }
 @media(min-width:600px){
@@ -161,6 +162,7 @@
 	}
 	.feature-col-2{
 		width:50%;
+		padding:35px;
 	}
 }
 .about-center{
@@ -171,14 +173,12 @@
 }
 .about-image img{
 	width:100%;
-	min-height:500px;
+	min-height:600px;
 }
 .feature-col-1{
 	position:relative;
 }
-.feature-col-2{
-    padding: 35px;
-}
+
 .feature-row-2{
 	padding:50px 0px;
 }
@@ -201,9 +201,7 @@
 	color:#2389f1;
 	border:1px solid blue;
 }
-.about-card{
-	padding:20px 0px;
-}
+
 .about-icon{
 	margin:10px 0px 0px;
 }
@@ -862,6 +860,12 @@ span{
 	.feature-col-16{
 		width:100%;
 	}
+	#your-name{
+	width:100%;
+	}
+	#your-email{
+	width:100%;
+	}
 }
 @media (min-width:600px){
 	.feature-row-10{
@@ -874,6 +878,12 @@ span{
 	.feature-col-16{
 		width:100%;
 	}
+	#your-name{
+	width:100%;
+	}
+	#your-email{
+	width:100%;
+	}
 }
 @media (min-width:1025px){
 	.feature-row-10{
@@ -884,6 +894,12 @@ span{
 	}
 	.feature-col-16{
 		width:60%;
+	}
+	#your-name{
+	width:49%;
+	}
+	#your-email{
+	width:49%;
 	}
 }
 .feature-row-10{
@@ -898,14 +914,14 @@ span{
 }
 
 #your-name{
-	width:49%;
 	height:50px;
 	padding:20px;
+	margin-bottom:20px;
 	color:gray;
 	border:2px solid #a59e9e75;
 }
 #your-email{
-	width:48%;
+
 	height:50px;
 	padding:10px;
 	color:gray;
