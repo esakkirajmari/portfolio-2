@@ -178,7 +178,6 @@
 .feature-col-1{
 	position:relative;
 }
-
 .feature-row-2{
 	padding:50px 0px;
 }
@@ -290,7 +289,7 @@
 		width:100%;
 	}
 	.card-2{
-		width:0%;
+		width:25%;
 	}
 }
 .feature-row-3{
@@ -441,7 +440,6 @@
 .feature-col-6 p{
 	line-height:25px;
 }
-
 .feature-row-5 h2{
 	padding:20px;
 }
@@ -626,8 +624,8 @@
 }
 .pic img{
 		border-radius:50%;
-		width:20%;
-		height:20%;
+		width:150px;
+		
 	}
 .flex{
 	display:flex;
@@ -645,7 +643,8 @@
 }
 .calls{
 	text-align:center;
-	width:60%;
+	width:100%;
+	margin:0 auto;
 }
 .center-para h3{
 	padding:10px;
@@ -715,7 +714,7 @@ span{
 		justify-content:space-between;
 }
 	.card-5{
-		width:46 %;
+		width:46%;
 	}
 	.team-image{
 		width:100%;
@@ -810,7 +809,7 @@ span{
 		width:100%;
 	}
 	.card-6{
-		width:33%;
+		width:32%;
 	}
 }
 @media(min-width:1025px){
@@ -821,13 +820,12 @@ span{
 		width:23%;
 	}
 }
-.gallery-head{
+	.gallery-head{
 		width:80%;
 		margin:0 auto;
 }
-.gallery-card{
-	gap:2.%;
-	margin:20px;
+	.gallery-card{
+		gap:2.65%;
 }
 .card-6{
 	border-bottom: 3px solid #fff;
@@ -860,12 +858,10 @@ span{
 	.feature-col-16{
 		width:100%;
 	}
-	#your-name{
-	width:100%;
+	.content-2 div{
+		width:100%;
 	}
-	#your-email{
-	width:100%;
-	}
+	
 }
 @media (min-width:600px){
 	.feature-row-10{
@@ -878,11 +874,8 @@ span{
 	.feature-col-16{
 		width:100%;
 	}
-	#your-name{
-	width:100%;
-	}
-	#your-email{
-	width:100%;
+	.content-2 div{
+		width:48%;
 	}
 }
 @media (min-width:1025px){
@@ -895,12 +888,14 @@ span{
 	.feature-col-16{
 		width:60%;
 	}
-	#your-name{
-	width:49%;
-	}
-	#your-email{
-	width:49%;
-	}
+}
+.content-2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.content-2 input{
+	width:100%;
 }
 .feature-row-10{
 	width:80%;
@@ -912,16 +907,19 @@ span{
 	flex-wrap:wrap;
 	margin:24px 0px;
 }
-
-#your-name{
+iframe{
+	width:100%;
+	height:270px;
+	border:0;
+}
+#Your-Name{
 	height:50px;
 	padding:20px;
 	margin-bottom:20px;
 	color:gray;
 	border:2px solid #a59e9e75;
 }
-#your-email{
-
+#Your-email{
 	height:50px;
 	padding:10px;
 	color:gray;
@@ -1170,7 +1168,7 @@ input[type="submit"]{
 }
 footer{
 	background-color:#efeded;
-	padding:20px 0px 40px; 
+	 padding:20px;
 	position:relative;
 }
 .top{
